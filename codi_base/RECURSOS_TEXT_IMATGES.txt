@@ -1,0 +1,20 @@
+=================================================================
+RECURSOS DE TEXT I IMATGES - EXAMEN BOOTSTRAP (2 HORES)
+Restaurant Sakura Badalona | CFGM SMX - INS Barres i Ones
+=================================================================
+
+1. TEXT EXACTA DE LA CAPÇALERA:
+"Restaurant Sakura | Autèntica Cuina Japonesa - Badalona"
+
+2. ELEMENTS de ("ESPECIALITATS"). TEXTOS PER A LES 4 CARDS D'ESPECIALITATS:
+- Card 1 (Combo Sakura): Selecció especial de 18 peces: nigiris de salmó i tonyina roja, maki d'alvocat i uramaki cruixent.
+- Card 2 (Tonkotsu Ramen): Brou tradicional de porc cuit durant 12 hores, fideus frescos, chashu (cansalada marinada) i ou cuit.
+- Card 3 (Tempura Moriawase): Varietat de llagostins i verdures de temporada arrebossats en massa lleugera i cruixent estil japonès.
+- Card 4 (Mochis de Matcha): Postre tradicional japonès elaborat amb massa d'arròs glutinós farcida de gelat de te verd Matcha.
+
+3. TEXTOS PER AL CARRUSEL (5 DIAPOSITIVES):
+- Diapositiva 1 (foto Restaurant): Benvinguts a Sakura Badalona — Tradició i fusió japonesa al cor de la ciutat.
+- Diapositiva 2 (Sushi Chef): Mestres del Sushi — Ingredients frescos seleccionats diàriament al mercat.
+- Diapositiva 3 (Nigiris): L'art del tall — Nigiris i sashimis preparats al moment davant teu.
+- Diapositiva 4 (Ramen): Ramen Autèntic — Receptes ancestrals de Kyoto preparades amb paciència.
+- Diapositiva 5 (Gyozas): Entrants Deliciosos — Gyozas artesanes cruixents i edamame saltejat.

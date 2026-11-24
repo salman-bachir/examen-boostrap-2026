@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Sakura Badalona</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Restaurant Sakura Badalona</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inici">Inici</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#quisom">Qui Som</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#especialitats">Especialitats</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reserves">Reserves</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-secondary text-white text-center py-4">
+        <div class="container">
+            <h1>Restaurant Sakura | Autèntica Cuina Japonesa - Badalona</h1>
+        </div>
+    </header>
+
+    <section class="container my-4">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/Restaurant_1.jpg" class="d-block w-100" style="height: 350px; object-fit: cover;" alt="Imatge 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/cocinero_haciendo_sushi.jpg" class="d-block w-100" style="height: 350px; object-fit: cover;" alt="Imatge 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/niguiri_1.jpg" class="d-block w-100" style="height: 350px; object-fit: cover;" alt="Imatge 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/ramen.jpg" class="d-block w-100" style="height: 350px; object-fit: cover;" alt="Imatge 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/gyozas.jpg" class="d-block w-100" style="height: 350px; object-fit: cover;" alt="Imatge 5">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <section id="especialitats" class="container my-5">
+        <h2 class="text-center mb-4">Les Nostres Especialitats</h2>
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <img src="img/niguiris.jpg" class="card-img-top" style="height: 180px; object-fit: cover;" alt="Plat 1">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Combo Sakura</h5>
+                        <p class="card-text">Selecció especial de 18 peces: nigiris de salmó i tonyina roja, maki d'alvocat i uramaki cruixent.</p>
+                        <div class="d-grid">
+                            <button type="button" class="btn btn-danger">Demanar / Reservar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <img src="img/ramen_tonkotsu.avif" class="card-img-top" style="height: 180px; object-fit: cover;" alt="Plat 2">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Tonkotsu Ramen</h5>
+                        <p class="card-text">Brou tradicional de porc cuit durant 12 hores, fideus frescos, chashu (cansalada marinada) i ou cuit.</p>
+                        <div class="d-grid">
+                            <button type="button" class="btn btn-danger">Demanar / Reservar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <img src="img/tempura_gambas.webp" class="card-img-top" style="height: 180px; object-fit: cover;" alt="Plat 3">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Tempura Moriawase</h5>
+                        <p class="card-text">Varietat de llagostins i verdures de temporada arrebossats en massa lleugera i cruixent estil japonès.</p>
+                        <div class="d-grid">
+                            <button type="button" class="btn btn-danger">Demanar / Reservar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <img src="img/mochi_te_verde.jpg" class="card-img-top" style="height: 180px; object-fit: cover;" alt="Plat 4">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Mochis de Matcha</h5>
+                        <p class="card-text">Postre tradicional japonès elaborat amb massa d'arròs glutinós farcida de gelat de te verd Matcha.</p>
+                        <div class="d-grid">
+                            <button type="button" class="btn btn-danger">Demanar / Reservar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Qui Som?" class="container my-5">
+     <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+ <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/Restaurant_1.jpg" alt="Los Angeles" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="img/sushi.jpg" alt="Chicago" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="img/sushi_variado.jpg" alt="New York" class="d-block w-100">
+    </div>
+  </div>
+
+ <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+    </section>
+
+    <section id="reserves" class="container my-5">
+        <h2 class="text-center mb-4">Formulari de Reserva</h2>
+        <!-- Espai per al missatge de confirmació de JS -->
+        <div id="missatgeConfirmacio"></div>
+        
+        <form id="formulariReserva">
+            <!-- Afegir aquí els camps: Nom, Cognoms, Telèfon, Correu, Data, Consulta i Botó -->
+            <div class="mb-3 mt-3">
+                        <label for="nom" class="form-label">Nom i Cognom:</label>
+                        <input type="text" class="form-control" id="nom" placeholder="Nom i Cognom" name="nom" required>
+                </div>
+            <div class="mb-3 mt-3">
+                        <label for="tel" class="form-label">Telèfon:</label>
+                        <input type="number" class="form-control" name="tel" placeholder="Telèfon" name="tel" required>
+                </div>  
+            <div class="mb-3 mt-3">
+                        <label for="Correu" class="form-label">Correu Electronic:</label>
+                        <input type="text" class="form-control" name="Correu" placeholder="Correu Electronic" name="Correu" required>                        
+                </div>
+             <div class="mb-3 mt-3">
+                        <label for="Data" class="form-label">Data:</label>
+                        <input type="date" class="form-control" name="Data" placeholder="Data" name="Data" required>
+                </div>
+             <div class="mb-3 mt-3">
+                        <label for="Missatge" class="form-label">Missatge:</label>
+                        <textarea class="form-control" id="missatge" rows="3" placeholder="Missatge" name="missatge"></textarea>
+                    </div>
+                <button type="submit" class="btn btn-danger">Envia</button>
+        </form>
+    </section>
+
+    
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p class="mb-0">Restaurant Sakura Badalona</p>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Enllaçar aquí el fitxer js/script.js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
